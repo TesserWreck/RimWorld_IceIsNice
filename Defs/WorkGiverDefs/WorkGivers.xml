@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
 	<WorkGiverDef>
 		<defName>IceMine</defName>
 		<label>icemine</label>
@@ -15,4 +15,4 @@
 		<scanThings>false</scanThings>
 		<scanCells>true</scanCells>
 	</WorkGiverDef>
-</WorkGivers>
+</Defs>
