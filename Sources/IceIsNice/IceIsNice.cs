@@ -152,6 +152,11 @@ namespace IceIsNice
 
 		private Effecter effecter;
 
+		public override bool TryMakePreToilReservations()
+		{
+			return this.pawn.Reserve(this.job.targetA, this.job, 1, -1, ReservationLayerDefOf.Floor);
+		}
+
 		protected int BaseWorkAmount
 		{
 			get
